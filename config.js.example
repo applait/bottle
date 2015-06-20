@@ -1,0 +1,22 @@
+module.exports = {
+
+    // IRC config
+    irc: {
+
+        // IRC server
+        server: "chat.freenode.net",
+
+        // IRC port
+        port: "6697",
+
+        // Bot nickname registered on IRC
+        nick: "applaitbot",
+
+        // Bot account password on IRC
+        password: "",
+
+        // Channels to join
+        channels: ["#applait"]
+
+    }
+};
