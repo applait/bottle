@@ -1,0 +1,22 @@
+{
+  "name": "bottle",
+  "version": "0.0.1",
+  "description": "Applait's bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/applait/bottle.git"
+  },
+  "keywords": [
+    "applait",
+    "bot"
+  ],
+  "author": "Applait Technologies LLP <contact@applait.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/applait/bottle/issues"
+  }
+}
