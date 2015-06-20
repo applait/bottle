@@ -10,13 +10,31 @@ module.exports = {
         port: "6697",
 
         // Bot nickname registered on IRC
-        nick: "applaitbot",
+        userName: "applaitbot",
+
+        // Bot real name
+        realName: "Applait Bot",
 
         // Bot account password on IRC
         password: "",
 
         // Channels to join
-        channels: ["#applait"]
+        channels: ["#applait"],
+
+        // Auto rejoin
+        autoRejoin: true,
+
+        // Auto connect
+        autoConnect: true,
+
+        // SSL connection enable/disable
+        secure: false,
+
+        // Allow self-signed cert
+        selfSigned: true,
+
+        // Allow expired cert
+        certExpired: false
 
     }
 };
