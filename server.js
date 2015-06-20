@@ -8,11 +8,12 @@ var irc = { module: require("irc"), servers: {}, clients: {} },
 
 // set up github webhook listener
 var gh_webhook = require('githubhook')({
-        host: config.github.webhook.ip || "0.0.0.0",
-        port: config.github.webhook.port || 8081,
-        path: config.github.webhook.path || "push",
-        secret: config.github.webhook.secret
-    });
+    host: config.github.webhook.ip || "0.0.0.0",
+    port: config.github.webhook.port || 8081,
+    path: config.github.webhook.path || "push",
+    secret: config.github.webhook.secret,
+    logger: util
+});
 
 // Spin off IRC client instance
 irc.clients.freenode = new irc.module.Client(config.irc.freenode.server, config.irc.freenode.nick, {
