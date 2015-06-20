@@ -4,15 +4,15 @@ module.exports = {
     irc: {
 
         // IRC server
-        server: "chat.freenode.net",
+        server: "irc.freenode.net",
 
         // Bot nickname to attempt to use
-        nick: "_applaitbot_",
+        nick: "applaitbot",
 
         // IRC port
-        port: "6697",
+        port: 6697,
 
-        // Bot username registered on IRC
+        // Bot nickname registered on IRC
         userName: "applaitbot",
 
         // Bot real name
@@ -24,14 +24,8 @@ module.exports = {
         // Channels to join
         channels: ["#applait"],
 
-        // Auto rejoin
-        autoRejoin: true,
-
-        // Auto connect
-        autoConnect: true,
-
         // SSL connection enable/disable
-        secure: false,
+        secure: true,
 
         // Allow self-signed cert
         selfSigned: true,
