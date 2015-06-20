@@ -20,6 +20,7 @@
     "url": "https://github.com/applait/bottle/issues"
   },
   "dependencies": {
-    "irc": "~0.3.12"
+    "irc": "~0.3.12",
+    "githubhook": "~1.2.0"
   }
 }

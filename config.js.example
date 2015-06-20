@@ -1,5 +1,26 @@
 module.exports = {
 
+    // Github config
+    github: {
+
+        // Webhook config
+        webhook: {
+
+            // IP to run the webhook on
+            ip: "0.0.0.0",
+
+            // Port to run the webhook on
+            port: 8081,
+
+            // Path to webhook
+            path: "push",
+
+            // Webhook secret
+            secret: ""
+        }
+
+    },
+
     // IRC config
     irc: {
 
