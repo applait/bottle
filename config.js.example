@@ -3,35 +3,39 @@ module.exports = {
     // IRC config
     irc: {
 
-        // IRC server
-        server: "irc.freenode.net",
+        // Configuration for Freenode
+        freenode: {
 
-        // Bot nickname to attempt to use
-        nick: "applaitbot",
+            // IRC server
+            server: "irc.freenode.net",
 
-        // IRC port
-        port: 6697,
+            // Bot nickname to attempt to use
+            nick: "applaitbot",
 
-        // Bot nickname registered on IRC
-        userName: "applaitbot",
+            // IRC port
+            port: 6697,
 
-        // Bot real name
-        realName: "Applait Bot",
+            // Bot nickname registered on IRC
+            userName: "applaitbot",
 
-        // Bot account password on IRC
-        password: "",
+            // Bot real name
+            realName: "Applait Bot",
 
-        // Channels to join
-        channels: ["#applait"],
+            // Bot account password on IRC
+            password: "",
 
-        // SSL connection enable/disable
-        secure: true,
+            // Channels to join
+            channels: ["#applait"],
 
-        // Allow self-signed cert
-        selfSigned: true,
+            // SSL connection enable/disable
+            secure: true,
 
-        // Allow expired cert
-        certExpired: false
+            // Allow self-signed cert
+            selfSigned: true,
+
+            // Allow expired cert
+            certExpired: false
+        }
 
     }
 };
