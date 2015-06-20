@@ -32,7 +32,7 @@ irc.clients.freenode = new irc.module.Client(config.irc.freenode.server, config.
     debug: true
 });
 
-// listen to push on github on branch master
+// Listen to push on github on branch master
 gh_webhook.on('push', function (repo, ref, data) {
     util.log("GH push", data);
     irc.clients.freenode.say("#applait",
@@ -40,5 +40,5 @@ gh_webhook.on('push', function (repo, ref, data) {
                               data.repository.full_name, data.compare].join(" "));
 });
 
-// listen to github push
+// Listen to github push
 gh_webhook.listen();
