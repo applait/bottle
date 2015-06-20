@@ -6,10 +6,13 @@ module.exports = {
         // IRC server
         server: "chat.freenode.net",
 
+        // Bot nickname to attempt to use
+        nick: "_applaitbot_",
+
         // IRC port
         port: "6697",
 
-        // Bot nickname registered on IRC
+        // Bot username registered on IRC
         userName: "applaitbot",
 
         // Bot real name
